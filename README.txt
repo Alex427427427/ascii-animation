@@ -3,7 +3,7 @@ Happy birthday. May your dearest wishes come true.
 
 This is for you. 
 Each frame was drawn with a mouse in microsoft paint.
-The files are aptly named "AI" because the source is Alex and the destination is Incy.
+The files are aptly named "AI" because the source is **** and the destination is ****.
 
 PLEASE CLICK MAXIMISE at the command terminal during runtime.
 
