@@ -1,9 +1,9 @@
-Clever, thoughtful, wonderful ****:
-Happy birthday. May your dearest wishes come true. 
+******, ***********, ********* ****:
+Happy birthday. *** **** ******* ****** **** ****. 
 
 This is for you. 
 Each frame was drawn with a mouse in microsoft paint.
-The files are aptly named "AI" because the source is **** and the destination is ****.
+The files are aptly named "AI" because *** ****** ** **** *** *** destination ** ****.
 
 Have everything in the same folder, then double click AI.py to run.
 PLEASE CLICK MAXIMISE at the command terminal during runtime.
