@@ -51,10 +51,8 @@ for i in range(frame_count):
 
 # for every image...
 for i in range(len(image_names)):
-    # open image...
+    # open image... convert to greyscale
     img = Image.open(image_names[i]).convert('LA')
-    # .convert("LA") converts the image to greyscale. Not that it's necessary here
-    # but you know. Maybe i am colourblind and accidentally drew colour images
 
     # convert its pixels into ascii using the function we wrote above
     content = ascii_content(img, greyscale_70)
