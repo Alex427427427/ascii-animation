@@ -34,6 +34,6 @@ while True:
     # for each frame...
     for frame in frames:
         print("".join(frame)) # join everything into one string
-        time.sleep(0.02) # sleep for 0.02 second
+        time.sleep(0.2) # sleep for 0.2 second
         os.system('cls') # clear screen
 
