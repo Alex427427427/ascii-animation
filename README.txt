@@ -7,7 +7,8 @@ IF ON LINUX: in AI.py, edit every occurrence of os.system('cls') into os.system(
 Adjust the number in time.sleep(number) as you see fit.
 (Linux also appears to result in a speed that's more faithful to the number we set. 
 On Windows, having time.sleep(0.02) should have given 50fps, completing the 33 frames in 0.66 seconds, but that was not the case.
-So you may edit that number depending on your OS.)
+It actually results in a much slower rate that was originally desired. That's why it is set to 0.02.
+You may edit that number depending on your OS.)
 
 If curious, may check out the png2ascii.py file, in which i convert the pixel values of png files into ascii. 
 
