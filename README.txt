@@ -1,6 +1,6 @@
 Download; have everything in the same folder, then double click AI.py to run.
 Maximise the screen at the command terminal during runtime for proper display. 
-EDIT: Some people could not get things to work just by running AI.py, so I've added AI.exe that should just run it with no problems. 
+If double clicking on AI.py doesn't work, open your command prompt, cd to the directory, then enter the command "python.exe AI.py"
 
 IF ON LINUX: edit every occurrence of os.system('cls') into os.system('clear').
 (Linux also appears to result in a speed that's more faithful to the number we set. 
