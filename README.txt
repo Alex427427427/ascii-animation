@@ -1,7 +1,15 @@
-Download; have everything in the same folder, then double click AI.py to run.
+PRELIM: 
+windows: 
+  download vlc media player (64 bit!)
+  pip install pygame
+  pip install python-vlc
+
+
+RUN:
+Clone repo. Double click AI.py to run.
 Maximise the screen at the command terminal during runtime for proper display. 
 If double clicking on AI.py doesn't work, make sure you have python downloaded, 
-then open your command prompt, cd to the directory, then enter the command "python.exe AI.py"
+then open your command prompt, cd to the local repo directory, then enter the command "python.exe AI.py"
 
 IF ON LINUX: in AI.py, edit every occurrence of os.system('cls') into os.system('clear').
 Adjust the number in time.sleep(number) as you see fit.
