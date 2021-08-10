@@ -1,9 +1,8 @@
 PRELIM: 
 windows: 
   download vlc media player (64 bit!)
-  pip install pygame
   pip install python-vlc
-
+  pip install pillow
 
 RUN:
 Clone repo. Double click AI.py to run.
