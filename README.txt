@@ -1,3 +1,6 @@
+(UPDATE 15/8/2021: NEW AND IMPROVED ANIMATION SEEN IN THIS REPO: 
+https://github.com/Alex427427427/asciimatics_the_muse.git)
+
 PRELIM: 
 windows: 
   download vlc media player (64 bit!)
