@@ -2,19 +2,18 @@
 https://github.com/Alex427427427/infinite_portrait.git
 )
 
-PRELIM: 
-windows: 
-  download vlc media player (64 bit!)
-  pip install python-vlc
-  pip install pillow
-
 RUN:
 Clone repo. Double click AI.py to run.
 Maximise the screen at the command terminal during runtime for proper display. 
 If double clicking on AI.py doesn't work, make sure you have python downloaded, 
 then open your command prompt, cd to the local repo directory, then enter the command "python.exe AI.py"
 
-IF ON LINUX: in AI.py, edit every occurrence of os.system('cls') into os.system('clear').
+IF ON LINUX: 
+Make sure to use python3.
+
+  python3 AI.py
+
+in AI.py, edit every occurrence of os.system('cls') into os.system('clear').
 Adjust the number in time.sleep(number) as you see fit.
 (Linux also appears to result in a speed that's more faithful to the number we set. 
 On Windows, having time.sleep(0.02) should have given 50fps, completing the 33 frames in 0.66 seconds, but that was not the case.
