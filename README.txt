@@ -1,5 +1,6 @@
 (UPDATE 15/8/2021: NEW AND IMPROVED ANIMATION SEEN IN THIS REPO: 
-https://github.com/Alex427427427/asciimatics_the_muse.git)
+https://github.com/Alex427427427/infinite_portrait.git
+)
 
 PRELIM: 
 windows: 
