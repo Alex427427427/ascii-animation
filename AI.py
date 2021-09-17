@@ -3,6 +3,17 @@
 
 import os
 import time
+import termios
+import struct
+import fcntl
+
+def set_winsize(fd, row, col, xpix=0, ypix=0):
+    winsize = struct.pack("HHHH", row, col, xpix, ypix)
+    fcntl.ioctl(fd, termios.TIOCSWINSZ, winsize)
+
+import sys
+sys.stdout.write("\x1b[8;{rows};{cols}t".format(rows=46, cols=128))
+
 
 
 os.system('cls')
