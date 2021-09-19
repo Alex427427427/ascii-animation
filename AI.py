@@ -13,7 +13,7 @@ frames = [] # this will contain a list, each element being a frame. Each frame i
 
 # add all filenames
 for i in range(frame_count):
-    file_names.append("AI" + str(i + 1) + ".txt")
+    file_names.append("ascii_frames\\AI" + str(i + 1) + ".txt")
 
 
 # for each filename
