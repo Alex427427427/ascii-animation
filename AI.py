@@ -16,7 +16,7 @@ sys.stdout.write("\x1b[8;{rows};{cols}t".format(rows=46, cols=128))
 
 
 
-os.system('cls')
+os.system('clear')
 frame_count = 33 # set number of frames
 file_names = [] # list of files we will use to create the animation
 frames = [] # this will contain a list, each element being a frame. Each frame is a list of lines
@@ -24,7 +24,7 @@ frames = [] # this will contain a list, each element being a frame. Each frame i
 
 # add all filenames
 for i in range(frame_count):
-    file_names.append("ascii_frames\\AI" + str(i + 1) + ".txt")
+    file_names.append("ascii_frames/AI" + str(i + 1) + ".txt")
 
 
 # for each filename
@@ -40,5 +40,5 @@ while True:
     for frame in frames:
         print("".join(frame)) # join everything into one string
         time.sleep(0.1) # sleep for 0.1 second for a 10fps animation
-        os.system('cls') # clear screen
+        os.system('clear') # clear screen
 
